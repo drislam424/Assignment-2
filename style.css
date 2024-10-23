@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* Utility class */
+.btn-custom{
+    background-color: #8A47F6 !important;
+    color: #ffffff !important;
+}
+.btn-custom:hover {
+    background-color: #6d38c3 !important; 
+    
+}
+.btn-custom:active{
+    transform: scale(0.94);
+    transition: color 0.3s ease !important;
+}
+.btn-custom-sp{
+    background-color: #FE8C45 !important;
+    color: #ffffff !important;
+}
+.btn-custom-sp:hover {
+    background-color: #fe8c25 !important;
+    
+}
+.btn-custom-sp:active{
+    transform: scale(0.94);
+    transition: color 0.3s ease !important;
+}
+.bg-color{
+    background: linear-gradient(45deg, rgba(254, 140, 69, 0.20), rgba(138, 71, 246, 0.20));
+}
+
+/* navbar */
+.navbar-nav .nav-link:hover {
+    transition: color 0.3s ease !important;
+    color: #fe8c45 !important;
+}
+
+/* hero section */
+.carousel-indicators [data-bs-target] {
+            width: 12px;
+            height: 12px;
+            background-color:   #FFFFFF;
+            border-radius: 50%;
+            border:1px solid #ddd;
+        }
+        
+.carousel-indicators .active {
+            background-color:#8A47F6;
+        } 
+
+.carousel-item {
+            transition: transform 0.6s ease-in-out;
+        }
+
+@media (max-width: 768px) {
+    .custom-align {
+        text-align: center !important;
+    }
+    
+}
+
+/* Portfolio section */
+img{
+    transition: transform 0.4s;
+}
+img:hover {
+transform: scale(1.05);
+}
+.gallery-header h2 {
+text-align: center;
+font-weight: bold;
+margin: 40px 0;
+}
+.gallery-header h2 span {
+color: #8A47F6;
+}
+
+/* Filter Buttons */
+.btn-group {
+justify-content: center;
+display: flex;
+margin-bottom: 30px;
+}
+.btn-custom-white {
+background-color: white !important;      
+outline: none;      
+}
+.btn-custom-white.active {
+background-color: #8A47F6 !important;
+color: white;
+}
+
+/* card */
+.card{
+    transition: transform 0.4s;
+}
+.card:hover{    
+    transform: scale(1.05);    
+}
+
+/* Testimonials Section */
+.blockquote-footer{
+    font-size: 1.75rem;
+}
+/* .testimonials-section {
+    background:rgba(138, 71, 246, 0.10);
+} */
+
+.testimonial-text {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.client-info img {
+    margin-right: 10px;
+}
+
+.btn-outline-custom{
+    border: 1px solid #8A47F6;
+    color: #8A47F6;
+}
+.btn-outline-custom:hover{   
+    background:rgba(138, 71, 246, 0.35);
+    color: #FFFFFF;
+}
+.btn-outline-custom:focus{
+    background-color: #8A47F6;    
+    color: #FFFFFF;
+}
+/* Social media section */
+.masonry-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.masonry-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* contact info section */
+.contact-card {
+    
+    margin: auto;
+    background-color: rgba(138, 71, 246, 15%);
+    border-radius: 20px;
+    padding: 30px;
+    font-family: "Quicksand", sans-serif;
+}
+.contact-card .icon-circle {
+    background-color: #8A47F6;            
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+.contact-info {
+    margin-left: 15px;
+}
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contact-card p {
+    margin: 0;
+}
+.contact-card small {
+    color: #333333;            
+}
+
+/* footer responsive */
+@media (max-width: 768px) {
+    .container-custom {
+        flex-direction: column;
+        align-items: center; 
+    }
+    .socila-link {
+        justify-content: center; 
+        margin-top: 1rem;
+        /* svg{
+            width: 1.75rem ;  
+            height:1.75rem ;
+        }  */
+    }
+    
+}
+
+/* tempurary */
+
+@media (max-width: 768px) {
+        .tempurary{
+            display: none;
+        }
+        img{ 
+            margin: 3px 0;
+        }
+        .navbar{
+            padding: 0 10px;
+        }
+}
