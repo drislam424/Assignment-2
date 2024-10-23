@@ -186,6 +186,7 @@ color: white;
     .socila-link {
         justify-content: center; 
         margin-top: 1rem;
+    }
         /* svg{
             width: 1.75rem ;  
             height:1.75rem ;
@@ -197,7 +198,6 @@ color: white;
         img{ 
             margin: 3px 0;
         }
-    }
     
 }
 
