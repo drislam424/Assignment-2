@@ -192,9 +192,6 @@ color: white;
             height:1.75rem ;
         }  */
         /* soon will change */
-        .tempurary{
-            display: none;
-        }
         img{ 
             margin: 3px 0;
         }
@@ -208,4 +205,15 @@ color: white;
         .navbar{
             padding:10px;
         }
+}
+
+@media (max-width: 474px) {
+    .fs-b{
+        font-size: 13px !important;
+     }
+}
+@media (max-width: 412px) {
+    .fs-b{
+        font-size: 11px !important;
+     }
 }
